@@ -1,7 +1,6 @@
 .current {
   color: green;
 }
-h1 { color: red; }
 html {
   scroll-behavior: smooth;
   font-family: 'Avenir';
@@ -16,6 +15,8 @@ main { min-height: 100vh; }
 article {
   max-width: 1024px;
   margin: auto;
-  width: 100%
+  width: 100%;
+  font-family: 'Tangerine', cursive;
 }
+h1 { font-size: 2em; font-weight: lighter; }
 //.size-default, h1, h2 { max-width: 1024px; margin: auto; width: 100%; }
