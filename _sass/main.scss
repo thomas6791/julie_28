@@ -2,3 +2,20 @@
   color: green;
 }
 h1 { color: red; }
+html {
+  scroll-behavior: smooth;
+  font-family: 'Avenir';
+  font-size: 1em;
+}
+body {
+  //background-color: $yellow;
+  margin: 0px;
+  padding: 0px;
+}
+main { min-height: 100vh; }
+article {
+  max-width: 1024px;
+  margin: auto;
+  width: 100%
+}
+//.size-default, h1, h2 { max-width: 1024px; margin: auto; width: 100%; }
