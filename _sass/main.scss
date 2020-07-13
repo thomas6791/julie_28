@@ -1,3 +1,10 @@
+$black: #6d6875;
+
+$prune: #b5838d;
+$red: #e5989b;
+$orange: #ffb4a2;
+$light: #ffcdb2;
+
 .current {
   color: green;
 }
@@ -16,6 +23,12 @@ article, header {
   margin: auto;
   width: 100%;
 }
-ul { list-style: none; }
+ul { list-style: none;
+  background-color: $black;
+  color: white;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
 h1 { font-size: 2em; font-weight: lighter; }
 //.size-default, h1, h2 { max-width: 1024px; margin: auto; width: 100%; }
