@@ -2,10 +2,9 @@
   color: green;
 }
 html {
-  scroll-behavior: smooth;
-  font-family: 'Avenir';
-  font-size: 1em;
+  font-family: 'Avenir', cursive;
 }
+* { padding:0px; margin: 0px; }
 body {
   //background-color: $yellow;
   margin: 0px;
@@ -16,7 +15,7 @@ article, header {
   max-width: 1024px;
   margin: auto;
   width: 100%;
-  font-family: 'Tangerine', cursive;
 }
+ul { list-style: none; }
 h1 { font-size: 2em; font-weight: lighter; }
 //.size-default, h1, h2 { max-width: 1024px; margin: auto; width: 100%; }
