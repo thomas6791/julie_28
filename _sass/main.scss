@@ -53,6 +53,7 @@ ul, ol { padding: 0px 15px; }
   .message {
     visibility: hidden;
     height: 0px;
+    &.active { visibility: visible; height: auto; }
   }
 }
 //.size-default, h1, h2 { max-width: 1024px; margin: auto; width: 100%; }
