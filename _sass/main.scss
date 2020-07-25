@@ -37,8 +37,10 @@ article, header {
 h1 { font-size: 2em; font-weight: lighter; }
 h2, h3 { font-family: "Cabin Sketch"; }
 h2, h3 { padding: 10px 0px; }
+ul, ol { padding: 0px 15px; }
 #messages {
   ul {
+    padding: 0px;
     li {
       cursor: pointer;
       margin-bottom: 0.5em;
