@@ -19,7 +19,7 @@ const setterBtns = document.querySelectorAll('button[data-setter]');
 
 let intervalTimer;
 let timeLeft;
-let wholeTime = 0.5 * 60; // manage this to set the whole time
+let wholeTime = document.getElementById("countdown").dataset.time * 60; // manage this to set the whole time temps à changer
 let isPaused = false;
 let isStarted = false;
 

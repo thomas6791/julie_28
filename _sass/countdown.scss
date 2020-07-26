@@ -1,5 +1,9 @@
 #countdown {
-  position: relative;
+  display: flex;
+  justify-content: center;
+  section {
+    position: relative;
+  }
 }
 
 button[data-setter] {
