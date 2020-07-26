@@ -1,67 +1,74 @@
 ---
 layout: default
 permalink: /recette-1/
-title: Home
+title: Citron
 preparation: 30
-cuisson: 20
+cuisson: 1
 ---
 <h1>Tarte au Citron</h1>
-<h2>Liste des ingrédients</h2>
-<h3>Pâte sablée</h3>
-<ul>
-  <li>250g de farine</li>
-  <li>150g de beurre</li>
-  <li>50g de sucre</li>
-  <li>50g de sucre glace</li>
-  <li>1 oeuf</li>
-  <li>1 pincée de sel</li>
-</ul>
+{% include nav.html %}
+<section id="ingredients">
+  <h2>Liste des ingrédients</h2>
+  <h3>Pâte sablée</h3>
+  <ul>
+    <li>250g de farine</li>
+    <li>150g de beurre</li>
+    <li>50g de sucre</li>
+    <li>50g de sucre glace</li>
+    <li>1 oeuf</li>
+    <li>1 pincée de sel</li>
+  </ul>
 
-<h3>Crème au citron</h3>
-<ul>
-  <li>150 ml de jus de citron soit 3 ou 4 citrons</li>
-  <li>zeste d'un citron</li>
-  <li>150 g de sucre ou moins selon votre goût
-  3 oeufs</li>
-  <li>1 c. à soupe de maizéna ou farine</li>
-  <li>75g de beurre</li>
-</ul>
+  <h3>Crème au citron</h3>
+  <ul>
+    <li>150 ml de jus de citron soit 3 ou 4 citrons</li>
+    <li>zeste d'un citron</li>
+    <li>150 g de sucre ou moins selon votre goût
+    3 oeufs</li>
+    <li>1 c. à soupe de maizéna ou farine</li>
+    <li>75g de beurre</li>
+  </ul>
 
-<h3>Meringue (optionnel)</h3>
-<ul>
-  <li>2 blancs d'oeufs (ou 3 petits)</li>
-  <li>75 g de sucre</li>
-</ul>
+  <h3>Meringue (optionnel)</h3>
+  <ul>
+    <li>2 blancs d'oeufs (ou 3 petits)</li>
+    <li>75 g de sucre</li>
+  </ul>
+</section>
 
-<h2>Etapes de la recette</h2>
-<h3>Réalisation et cuisson de la pâte sablée :</h3>
-<ol>
-<li>Battez l'oeuf avec les sucres et le sel</li>
-<li>Ajoutez la farine en 1 fois, pétrissez du bout des doigts</li>
-<li>Ajoutez le beurre mou en morceaux, pétrissez rapidement et formez une boule</li>
-<li>Filmez et mettez au frais au moins 1 heure</li>
-<li>Étalez dans le plat à tarte, recouvrez d'une feuille de papier sulfurisé et d'haricots, de billes d'argile ou d'une chaîne de billes métalliques disponible en grandes surfaces</li>
-<li>Faites cuire 10 minutes à 180°C, puis enlevez le "poids" et remettez 8-10 minutes pour bien cuire le centre. La pâte doit être dorée (sinon prolongez la cuisson de quelques minutes)
-Réservez.</li>
-</ol>
-<h3>Réalisation de la crème au citron :</h3>
-<ol>
-<li>Prélevez le zeste d'un citron non traité</li>
-<li>Portez à ébullition le jus des citrons avec le zeste</li>
-<li>Battez les oeufs avec le sucre et la maïzena</li>
-<li>Ajoutez progressivement le jus de citron en filet sans cesser de fouetter</li>
-<li>Remettez le tout sur feu moyen et faites épaissir en remuant bien tout le temps, vous obtiendrez une crème.</li>
-<li>Laissez tiédir et ensuite ajoutez le beurre mou en morceaux, en fouettant bien.</li>
-<li>Garnissez le fond de tarte précuit. Réservez au frais.</li>
-</ol>
-<h3>Finition facultative : la meringue :</h3>
-<ol>
-<li>Fouettez les blancs en neige, lorsqu'ils deviennent fermes, rajoutez le sucre et fouettez encore quelques secondes.</li>
-<li>Garnissez le dessus de la tarte avec une poche à douille par exemple et passez à four chaud 'fonction grill' 1 petite minute pour colorer la meringue ou comme dans la vidéo, pour aller plus vite...dorez la meringue au chalumeau...</li>
-</ol>
+<section id="recette">
+  <h2>Etapes de la recette</h2>
+  <h3>Réalisation et cuisson de la pâte sablée :</h3>
+  <ol>
+  <li>Battez l'oeuf avec les sucres et le sel</li>
+  <li>Ajoutez la farine en 1 fois, pétrissez du bout des doigts</li>
+  <li>Ajoutez le beurre mou en morceaux, pétrissez rapidement et formez une boule</li>
+  <li>Filmez et mettez au frais au moins 1 heure</li>
+  <li>Étalez dans le plat à tarte, recouvrez d'une feuille de papier sulfurisé et d'haricots, de billes d'argile ou d'une chaîne de billes métalliques disponible en grandes surfaces</li>
+  <li>Faites cuire 10 minutes à 180°C, puis enlevez le "poids" et remettez 8-10 minutes pour bien cuire le centre. La pâte doit être dorée (sinon prolongez la cuisson de quelques minutes)
+  Réservez.</li>
+  </ol>
+  <button id="minuteur">Afficher le minuteur</button>
+  {% include countdown.html %}
+  <h3>Réalisation de la crème au citron :</h3>
+  <ol>
+    <li>Prélevez le zeste d'un citron non traité</li>
+    <li>Portez à ébullition le jus des citrons avec le zeste</li>
+    <li>Battez les oeufs avec le sucre et la maïzena</li>
+    <li>Ajoutez progressivement le jus de citron en filet sans cesser de fouetter</li>
+    <li>Remettez le tout sur feu moyen et faites épaissir en remuant bien tout le temps, vous obtiendrez une crème.</li>
+    <li>Laissez tiédir et ensuite ajoutez le beurre mou en morceaux, en fouettant bien.</li>
+    <li>Garnissez le fond de tarte précuit. Réservez au frais.</li>
+  </ol>
+  <h3>Finition facultative : la meringue :</h3>
+  <ol>
+    <li>Fouettez les blancs en neige, lorsqu'ils deviennent fermes, rajoutez le sucre et fouettez encore quelques secondes.</li>
+    <li>Garnissez le dessus de la tarte avec une poche à douille par exemple et passez à four chaud 'fonction grill' 1 petite minute pour colorer la meringue ou comme dans la vidéo, pour aller plus vite...dorez la meringue au chalumeau...</li>
+  </ol>
+</section>
 
-<h2>Un message pour toi</h2>
 <div id="messages">
+  <h2>Un message pour toi</h2>
   <ul>
     <li>
       <h3>Message de Marine</h3>
