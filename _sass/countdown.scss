@@ -1,9 +1,25 @@
+#minuteur {
+  background-color: $black;
+  color: white;
+  line-height: 2em;
+  font-size: 1em;
+  padding: 0px 20px;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
 #countdown {
   display: flex;
   justify-content: center;
   section {
     position: relative;
   }
+}
+circle {
+
 }
 
 button[data-setter] {

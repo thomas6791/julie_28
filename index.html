@@ -3,7 +3,7 @@ layout: default
 permalink: /recette-1/
 title: Home
 preparation: 30
-cuisson: 40
+cuisson: 1
 ---
 <h1>Tarte au Citron</h1>
 {% include nav.html %}
@@ -48,6 +48,8 @@ cuisson: 40
   <li>Faites cuire 10 minutes à 180°C, puis enlevez le "poids" et remettez 8-10 minutes pour bien cuire le centre. La pâte doit être dorée (sinon prolongez la cuisson de quelques minutes)
   Réservez.</li>
   </ol>
+  <button id="minuteur">Afficher le minuteur</button>
+  {% include countdown.html %}
   <h3>Réalisation de la crème au citron :</h3>
   <ol>
     <li>Prélevez le zeste d'un citron non traité</li>
@@ -65,8 +67,8 @@ cuisson: 40
   </ol>
 </section>
 
-<h2>Un message pour toi</h2>
 <div id="messages">
+  <h2>Un message pour toi</h2>
   <ul>
     <li>
       <h3>Message de Marine</h3>
@@ -84,8 +86,6 @@ cuisson: 40
 
   </ul>
 </div>
-
-{% include countdown.html %}
 
 
 
