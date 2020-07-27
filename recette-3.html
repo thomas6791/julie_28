@@ -65,8 +65,17 @@ cuisson: 120
   </ol>
   <br>
   <p>Pour la finition, mélangez le sucre semoule avec le colorant rouge à l'aide d'un fouet. Saupoudrez finement les tiramisu avec le sucre coloré.</p>
-  <button id="minuteur">Afficher le minuteur</button>
-    {% include countdown.html %}
+
+  <div id="minuteur">
+    <ul>
+      <li class="">
+        <h3>Afficher le minuteur</h3>
+        <div class="horloge">
+          {% include countdown.html %}
+        </div>
+      </li>
+    </ul>
+  </div>
 
 </section>
 

@@ -71,10 +71,20 @@ cuisson: 25
     <li>Remplissez une poche à douille -munie d'une douille de préférence dentelée de 8mm de diamètre- de pâte à choux.</li>
     <li>Réalisez des boudins de 10cm à 12cm de pâte sur une plaque de cuisson légèrement beurrée et farinée, en les espaçant de quelques centimètres.</li>
     <li>Enfournez durant 25 à 30 minutes à 180°C dans le four non ventilé (il est important de ne pas ouvrir le four, sinon la pâte s'affaisserait).</li>
+    </ol>
 
-    <button id="minuteur">Afficher le minuteur</button>
-    {% include countdown.html %}
+    <div id="minuteur">
+      <ul>
+        <li class="">
+          <h3>Afficher le minuteur</h3>
+          <div class="horloge">
+            {% include countdown.html %}
+          </div>
+        </li>
+      </ul>
+    </div>
 
+    <ol>
     <li>Lorsque la pâte est cuite, posez-la sur une grille afin de la laisser refroidir.</li>
     <br>
     <li>Sortez la crème pâtissière du réfrigérateur.</li>

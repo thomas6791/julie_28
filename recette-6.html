@@ -62,8 +62,20 @@ cuisson: 30
     <li>Tapissez votre fond de tarte avec la crème d'amande.</li>
     <li>Déposez les fruits: en étoile ou en pluie.</li>
     <li>Enfournez 30min à 180°C et contrôlez toujours la cuisson à l'instinct et au nez.</li>
-    <button id="minuteur">Afficher le minuteur</button>
-    {% include countdown.html %}
+  </ol>
+
+  <div id="minuteur">
+    <ul>
+      <li class="">
+        <h3>Afficher le minuteur</h3>
+        <div class="horloge">
+          {% include countdown.html %}
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <ol>
     <li>Abricotez la tarte: utilisez un nappage blond ou faites chauffer une gelée de fruit.</li>
     <li>Nappez avec votre pinceau une fois la tarte refroidie.</li>
   </ol>

@@ -36,8 +36,17 @@ temperature: 180°C - thermostat 6
   <li>Laissez-les cuire de 8 à 10 min au four jusqu'à ce que les cookies soient dorés</li>
   <li>Laissez les reposer 1 min avant de les décoller de la plaque. Placez-les sur une grille jusuq'à leur refroidissement.</li>
   </ol>
-  <button id="minuteur">Afficher le minuteur</button>
-  {% include countdown.html %}
+
+  <div id="minuteur">
+    <ul>
+      <li class="">
+        <h3>Afficher le minuteur</h3>
+        <div class="horloge">
+          {% include countdown.html %}
+        </div>
+      </li>
+    </ul>
+  </div>
 </section>
 
 <div id="messages">

@@ -48,8 +48,18 @@ cuisson: 1
   <li>Faites cuire 10 minutes à 180°C, puis enlevez le "poids" et remettez 8-10 minutes pour bien cuire le centre. La pâte doit être dorée (sinon prolongez la cuisson de quelques minutes)
   Réservez.</li>
   </ol>
-  <button id="minuteur">Afficher le minuteur</button>
-  {% include countdown.html %}
+
+  <div id="minuteur">
+    <ul>
+      <li class="">
+        <h3>Afficher le minuteur</h3>
+        <div class="horloge">
+          {% include countdown.html %}
+        </div>
+      </li>
+    </ul>
+  </div>
+
   <h3>Réalisation de la crème au citron :</h3>
   <ol>
     <li>Prélevez le zeste d'un citron non traité</li>
