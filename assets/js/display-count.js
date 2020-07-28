@@ -8,7 +8,7 @@ button.addEventListener("click", (event) =>{
   console.log(button.nextElementSibling);
   if (button.nextElementSibling.classList.value === "horloge active") {
     button.nextElementSibling.classList.remove("active");
-    button.innerText = "afficher le minuteur";
+    button.innerText = "Afficher le minuteur";
     button.parentElement.classList.remove("clicked");
   }
   else {
